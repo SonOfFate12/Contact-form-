@@ -7,7 +7,7 @@ form.addEventListener('submit', (event) => {
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form, 'YOUR_USER_ID')
+    emailjs.sendForm('service_9cdx5co', 'template_lkzosrj', form, 'YOUR_USER_ID')
         .then(response => {
             console.log('SUCCESS!', response.status, response.text);
             alert('Thank you for your message!');
